@@ -1,3 +1,8 @@
-d = {"k1":"v1", "k2":"v2", "k3":"v3"}
-for k, v in d.items():
-    print("d[{}]의 값은 {}다.".format(k, v))
+l = [1, 2, 3, 4, 5]
+rl = reversed(l) #뒤집혀진(reversed) 이터레이터
+
+print(next(rl))
+print(next(rl))
+print(next(rl))
+print(next(rl))
+print(next(rl))
